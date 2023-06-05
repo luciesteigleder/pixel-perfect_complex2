@@ -1,0 +1,20 @@
+//VARIABLES
+$font-text :'Source Sans Pro', sans-serif;
+
+$color-text: #1a1b1b;
+$color-text-grey: #b2b9b9;
+$color-background: #f4f7f6;
+$color-hover: #90d8d0;
+$color-beta: #00b0a0;
+$color-number-blue: #7deedf;
+$color-number-yellow: #fef8bc;
+$color-hr: #ebf0ef;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: $font-text;
+}
+

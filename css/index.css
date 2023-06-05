@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  width: 630px;
+  height: 1834px;
+  margin: auto;
+  background-color: #f4f7f6;
+  color: #1a1b1b;
+}
+body hr {
+  width: 630px;
+  color: #ebf0ef;
+}
+body nav {
+  height: 140px;
+  font-weight: 400;
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body nav button {
+  font-size: 24px;
+  background-color: #f4f7f6;
+  border: none;
+}
+body nav button .language-name {
+  border-bottom: 1px solid #1a1b1b;
+}
+body nav button .flag {
+  font-size: 30px;
+  padding-left: 10px;
+}
+body ul {
+  font-size: 30px;
+}
+body ul li {
+  height: 140px;
+  font-weight: 600;
+  padding: 0 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body ul li.beta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  background-color: #90d8d0;
+}
+body ul li.beta span {
+  background-color: #00b0a0;
+  color: #f4f7f6;
+  font-size: 20px;
+  margin-left: 15px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+body ul li.number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body ul li.number span.number_item {
+  font-size: 26px;
+  padding-top: 5px;
+  padding-left: 15px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+body ul li.number span.number_item.yellow {
+  background-color: #fef8bc;
+}
+body ul li.number span.number_item.green {
+  background-color: #7deedf;
+}
+body ul li.conf {
+  height: 235px;
+}
+body ul li.conf .conference-span {
+  font-weight: 400;
+  color: #b2b9b9;
+  line-height: 42px;
+}
+
+/*# sourceMappingURL=index.css.map */

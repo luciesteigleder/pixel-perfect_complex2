@@ -1,0 +1,103 @@
+@import 'config';
+
+body {
+    width: 630px;
+    height: 1834px;
+    margin: auto;
+    background-color: $color-background;
+    color: $color-text;
+
+    hr {
+        width: 630px;
+        color: $color-hr;
+    }
+
+    nav {
+        height: 140px;
+        font-weight: 400;
+        padding: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        button {
+            font-size: 24px;
+            background-color: $color-background;
+            border: none;
+
+            .language-name {
+                border-bottom: 1px solid $color-text;
+            }
+
+            .flag {
+                font-size: 30px;
+                padding-left: 10px;
+            }
+        }
+    }
+
+    ul {
+
+        font-size: 30px;
+        li {
+            height: 140px;
+            font-weight: 600;
+            padding: 0 75px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            &.beta {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: left;
+                background-color: $color-hover;
+                
+
+                span {
+                    background-color: $color-beta;
+                    color: $color-background;
+                    font-size: 20px;
+                    margin-left: 15px;
+                    border-radius: 5px;
+                    padding: 5px 10px;
+                }
+            }
+
+            &.number {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                span.number_item {
+                    font-size: 26px;
+                    padding-top: 5px;
+                    padding-left: 15px;
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+
+                    &.yellow {
+                        background-color: $color-number-yellow;
+                    }
+
+                    &.green {
+                        background-color: $color-number-blue;
+                    }
+                }
+            }
+
+            &.conf {
+                height: 235px;
+
+                .conference-span {
+                    font-weight: 400;
+                    color: $color-text-grey;
+                    line-height: 42px;
+                }
+            }
+        }
+    }
+}
